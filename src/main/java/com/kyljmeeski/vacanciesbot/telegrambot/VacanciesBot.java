@@ -11,8 +11,9 @@ public class VacanciesBot extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
         if (update.hasMessage() && update.getMessage().hasText()) {
             String chatId = String.valueOf(update.getMessage().getChatId());
-            if (update.getMessage().getText().equals("/start")) {
-                SendMessage message = new SendMessage(chatId, "Welcome");
+            String text = update.getMessage().getText();
+            if (text.equals("/start")) {
+                SendMessage message = new SendMessage(chatId, "welcome");
                 try {
                     execute(message);
                 } catch (TelegramApiException e) {
