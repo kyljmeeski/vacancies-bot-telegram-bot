@@ -5,7 +5,15 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+import java.sql.Connection;
+
 public class VacanciesBot extends TelegramLongPollingBot {
+
+    private final Connection connection;
+
+    public VacanciesBot(Connection connection) {
+        this.connection = connection;
+    }
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -13,11 +21,15 @@ public class VacanciesBot extends TelegramLongPollingBot {
             String chatId = String.valueOf(update.getMessage().getChatId());
             String text = update.getMessage().getText();
             if (text.equals("/start")) {
-                SendMessage message = new SendMessage(chatId, "welcome");
-                try {
-                    execute(message);
-                } catch (TelegramApiException e) {
-                    e.printStackTrace();
+                User user = new User(chatId);
+                Users users = new Users(connection);
+                if (users.add(user)) {
+                    SendMessage message = new SendMessage(chatId, "Welcome! You will be notified everytime new vacancy appeared.");
+                    try {
+                        execute(message);
+                    } catch (TelegramApiException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
