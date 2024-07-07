@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a4d625-67e7-4655-a12f-1e3ee57ede4e" name="Changes" comment="feat: return welcoming message on &quot;/start&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/MarkdownText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/SendTelegramMessageJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/TelegramMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/Vacancy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kyljmeeski/vacanciesbot/telegrambot/MarkdownTextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kyljmeeski/vacanciesbot/telegrambot/TelegramMessageTest.java" afterDir="false" />
+    <list default="true" id="c7a4d625-67e7-4655-a12f-1e3ee57ede4e" name="Changes" comment="update .xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/VacanciesBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/VacanciesBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "studying-kyljmeeski"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;studying-kyljmeeski&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:kyljmeeski/vacancies-bot-telegram-bot.git",
-    "accountId": "b8f4d3ef-a48f-4261-a233-aaa28f84f5c0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:kyljmeeski/vacancies-bot-telegram-bot.git&quot;,
+    &quot;accountId&quot;: &quot;b8f4d3ef-a48f-4261-a233-aaa28f84f5c0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.MarkdownTextTest.test.executor": "Run",
-    "JUnit.TelegramMessageTest.test.executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Vcs Notifications": "VCS notifications",
-    "Notification.DoNotAsk-Vcs Notifications": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/mac/portfolio/projects/vacancies-bot/telegram-bot/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarkdownTextTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TelegramMessageTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Notifications&quot;: &quot;VCS notifications&quot;,
+    &quot;Notification.DoNotAsk-Vcs Notifications&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mac/portfolio/projects/vacancies-bot/telegram-bot/src/main/java/com/kyljmeeski/vacanciesbot/telegrambot/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kyljmeeski.vacanciesbot.telegrambot" />
@@ -202,7 +191,63 @@
       <option name="project" value="LOCAL" />
       <updated>1720338012057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dep: add rabbitmq-wrapper and gson">
+      <option name="closed" value="true" />
+      <created>1720348273530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348273530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: create Vacancy">
+      <option name="closed" value="true" />
+      <created>1720348285364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348285364</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: create TelegramMessage">
+      <option name="closed" value="true" />
+      <created>1720348298917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348298917</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: create SendTelegramMessageJob">
+      <option name="closed" value="true" />
+      <created>1720348310106</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348310106</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: establish rabbitmq connection and start consuming queue telegram-messages to send them to users">
+      <option name="closed" value="true" />
+      <created>1720348338520</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348338520</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add sendMessage method">
+      <option name="closed" value="true" />
+      <created>1720348355866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348355866</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update .xml">
+      <option name="closed" value="true" />
+      <created>1720348561740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720348561740</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +269,13 @@
     <MESSAGE value="feat: start bot" />
     <MESSAGE value="dep: add postgres" />
     <MESSAGE value="feat: return welcoming message on &quot;/start&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: return welcoming message on &quot;/start&quot;" />
+    <MESSAGE value="dep: add rabbitmq-wrapper and gson" />
+    <MESSAGE value="feat: create Vacancy" />
+    <MESSAGE value="feat: create TelegramMessage" />
+    <MESSAGE value="feat: create SendTelegramMessageJob" />
+    <MESSAGE value="feat: establish rabbitmq connection and start consuming queue telegram-messages to send them to users" />
+    <MESSAGE value="feat: add sendMessage method" />
+    <MESSAGE value="update .xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .xml" />
   </component>
 </project>

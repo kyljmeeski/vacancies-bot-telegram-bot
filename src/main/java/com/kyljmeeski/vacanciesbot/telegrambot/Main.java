@@ -41,13 +41,26 @@ import java.util.concurrent.TimeoutException;
 public class Main {
 
     public static void main(String[] args) {
-        ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost");
-        factory.setPort(5672);
+        ApplicationProperties applicationProperties = new ApplicationProperties();
 
-        String url = "jdbc:postgresql://localhost:5432/vacancies-bot";
-        String user = "postgres";
-        String password = "postgres";
+        ConnectionFactory factory = new ConnectionFactory();
+        factory.setHost(applicationProperties.rabbitMQHost());
+        factory.setPort(applicationProperties.rabbitMQPort());
+
+        String url = String.format(
+                "jdbc:postgresql://%s:%d/%s",
+                applicationProperties.postgresHost(), applicationProperties.postgresPort(),
+                applicationProperties.postgresDB()
+        );
+        String user = applicationProperties.postgresName();
+        String password = applicationProperties.postgresPassword();
+
+        System.out.println(
+                "Telegram Bot is sending messages from the queue \"telegram-messages\"@" +
+                        applicationProperties.rabbitMQHost() + ":" + applicationProperties.rabbitMQPort() +
+                        " to the users from db@" + applicationProperties.postgresHost() + ":" +
+                        applicationProperties.postgresPort()
+        );
 
         VacanciesBot bot = null;
 
