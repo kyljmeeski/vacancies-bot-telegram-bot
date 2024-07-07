@@ -29,6 +29,7 @@ import com.kyljmeeski.rabbitmqwrapper.Queues;
 import com.kyljmeeski.rabbitmqwrapper.RabbitQueue;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import org.flywaydb.core.Flyway;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
@@ -43,6 +44,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationProperties applicationProperties = new ApplicationProperties();
 
+
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(applicationProperties.rabbitMQHost());
         factory.setPort(applicationProperties.rabbitMQPort());
@@ -54,6 +56,10 @@ public class Main {
         );
         String user = applicationProperties.postgresName();
         String password = applicationProperties.postgresPassword();
+
+        Flyway flyway = Flyway.configure().dataSource(url, user, password).load();
+
+        flyway.migrate();
 
         System.out.println(
                 "Telegram Bot is sending messages from the queue \"telegram-messages\"@" +
