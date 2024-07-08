@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a4d625-67e7-4655-a12f-1e3ee57ede4e" name="Changes" comment="update .xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c7a4d625-67e7-4655-a12f-1e3ee57ede4e" name="Changes" comment="add migrations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -247,7 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720348561740</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add dockerfile; update pom.xml; add application properties">
+      <option name="closed" value="true" />
+      <created>1720360518614</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720360518614</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add migrations">
+      <option name="closed" value="true" />
+      <created>1720363753654</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720363753654</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +291,8 @@
     <MESSAGE value="feat: establish rabbitmq connection and start consuming queue telegram-messages to send them to users" />
     <MESSAGE value="feat: add sendMessage method" />
     <MESSAGE value="update .xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .xml" />
+    <MESSAGE value="add dockerfile; update pom.xml; add application properties" />
+    <MESSAGE value="add migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add migrations" />
   </component>
 </project>

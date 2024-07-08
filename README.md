@@ -1,5 +1,5 @@
 [![Java](https://img.shields.io/badge/Java-8%2B-orange)](https://www.oracle.com/java/)
-![Lines of Code](https://img.shields.io/badge/lines_of_code-817-green)
+![Lines of Code](https://img.shields.io/badge/lines_of_code-855-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 **Telegram Bot for Vacancies Bot** s a component of the Vacancies Bot application built on a microservices architecture. It registers new users to PostgreSQL database.
